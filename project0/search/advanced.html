@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" type-"text/css" href="style.css">
+  <title>Advanced Search</title>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html">Search</a>
+    <a href="images.html">Images</a>
+    <a href="advanced.html">Advanced</a>
+  </div>
+
+    <div class="image-full">
+      <img src="google.png" width="220" height="auto">
+      <span>Advanced</span>
+    </div>
+
+
+    <div class="form_container">
+
+        <form class="form" action="https://google.com/search?btnI=1&q">
+
+            <div class="input_wrapper_adv"> 
+            <p>Find pages with:</p>
+            <table>
+                <tr>
+                    <td>All these words:</td>
+                    <td><input class="input_adv" type="text" name="as_q"></td>            
+                </tr>
+                <tr>
+                    <td>Exact word/phrase:</td>
+                    <td><input class="input_adv" type="text" name="as_epq"></tr>
+                </tr>
+                <tr>
+                    <td>Any of these words:</td>
+                    <td><input class="input_adv" type="text" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td>None of these words:</td>
+                    <td><input class="input_adv" type="text" name="as_eq"></td>
+                </tr>
+                </table>
+            </div>
+
+                <div class="button_container_adv">
+                    <br><br> <input id="search" class="clicker" type="submit" value="Advanced Search">
+                </div>
+
+        </form>
+    </div>
+</body>
+</html>
